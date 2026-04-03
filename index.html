@@ -2,26 +2,45 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<h1><h1>Editorial Archive</h1>
-
-  <p style="max-width:600px; margin:20px auto; text-align:center; line-height:1.6;">
-Desarrollo proyectos de humanidades digitales y curaduría editorial enfocados en cultura visual, lenguaje de consumo rápido y conocimiento público. Este archivo reúne una selección de trabajos en creación de contenido, investigación y diseño narrativo.
-</p>
-</p>
+<title>Editorial Archive</title>
 
 <style>
 body {
   margin: 0;
   padding: 40px;
-  font-family: Arial, sans-serif;
-  background: #f4f4f4;
+  font-family: 'Georgia', serif;
+  background: #1a0f12; /* más borgoña */
+  color: #f2d6c9;
 }
 
 h1 {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  color: #e8b7a7;
 }
 
+p {
+  color: #cfa79b;
+}
+
+/* FOTO PERFIL */
+.perfil {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.perfil img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #8c3b3b;
+  box-shadow: 0 5px 20px rgba(140, 59, 59, 0.4);
+}
+
+/* GALERÍA */
 .seccion {
   margin-bottom: 50px;
 }
@@ -30,80 +49,90 @@ h1 {
   display: flex;
   gap: 15px;
   overflow-x: auto;
+  padding-bottom: 10px;
 }
 
 .slider img {
   height: 300px;
-  border-radius: 10px;
+  border-radius: 12px;
+  transition: transform 0.3s ease, opacity 0.3s ease, box-shadow 0.3s ease;
+}
+
+.slider img:hover {
+  transform: scale(1.04);
+  opacity: 0.95;
+  box-shadow: 0 10px 30px rgba(140, 59, 59, 0.5);
 }
 </style>
 </head>
 
 <body>
 
+<h1>Editorial Archive</h1>
+
+<div class="perfil">
+  <img src="Dels.jpg" alt="Retrato">
+</div>
+
+<p style="max-width:600px; margin:20px auto; text-align:center; line-height:1.6;">
+Desarrollo proyectos de humanidades digitales y curaduría editorial enfocados en cultura visual, lenguaje de consumo rápido y conocimiento público. Este archivo reúne una selección de trabajos en creación de contenido, investigación y diseño narrativo.
+</p>
 
 <!-- Slide 1 -->
-<div class="seccion">
-  <div class="slider">
-    <img src="Imagen 1.jpeg">
-    <img src="Imagen 2.jpeg">
-    <img src="Imagen 3.jpeg">
-  </div>
-</div>
+<div class="seccion"><div class="slider">
+<img src="Imagen 1.jpeg">
+<img src="Imagen 2.jpeg">
+<img src="Imagen 3.jpeg">
+</div></div>
 
 <!-- Slide 2 -->
-<div class="seccion">
-  <div class="slider">
-    <img src="Imagen 4.jpeg">
-    <img src="Imagen 5.jpeg">
-    <img src="Imagen 6.jpeg">
-  </div>
-</div>
+<div class="seccion"><div class="slider">
+<img src="Imagen 4.jpeg">
+<img src="Imagen 5.jpeg">
+<img src="Imagen 6.jpeg">
+</div></div>
 
 <!-- Slide 3 -->
-<div class="seccion">
-  <div class="slider">
-    <img src="Imagen 7.jpeg">
-    <img src="Imagen 8.jpeg">
-    <img src="Imagen 9.jpeg">
-  </div>
-</div>
+<div class="seccion"><div class="slider">
+<img src="Imagen 7.jpeg">
+<img src="Imagen 8.jpeg">
+<img src="Imagen 9.jpeg">
+</div></div>
 
 <!-- Slide 4 -->
-<div class="seccion">
-  <div class="slider">
-    <img src="Imagen 10.jpeg">
-    <img src="Imagen 11.jpeg">
-    <img src="Imagen 12.jpeg">
-  </div>
-</div>
+<div class="seccion"><div class="slider">
+<img src="Imagen 10.jpeg">
+<img src="Imagen 11.jpeg">
+<img src="Imagen 12.jpeg">
+</div></div>
 
 <!-- Slide 5 -->
-<div class="seccion">
-  <div class="slider">
-    <img src="Imagen 13.jpeg">
-    <img src="Imagen 14.jpeg">
-    <img src="Imagen 15.jpeg">
-  </div>
-</div>
+<div class="seccion"><div class="slider">
+<img src="Imagen 13.jpeg">
+<img src="Imagen 14.jpeg">
+<img src="Imagen 15.jpeg">
+</div></div>
 
 <!-- Slide 6 -->
-<div class="seccion">
-  <div class="slider">
-    <img src="Imagen 16.jpeg">
-    <img src="Imagen 17.jpeg">
-    <img src="Imagen 18.jpeg">
- </div>
-</div>
-  <!-- Slide 7 -->
-<div class="seccion">
-  <div class="slider">
-    <img src="Imagen 21.jpeg">
-    <img src="Imagen 22.jpeg">
-    <img src="Imagen 23.jpeg">
-    <img src="Imagen 24.jpeg">
-  </div>
-</div>
+<div class="seccion"><div class="slider">
+<img src="Imagen 16.jpeg">
+<img src="Imagen 17.jpeg">
+<img src="Imagen 18.jpeg">
+</div></div>
+
+<!-- Slide 7 -->
+<div class="seccion"><div class="slider">
+<img src="Imagen 19.jpeg">
+<img src="Imagen 20.jpeg">
+<img src="Imagen 21.jpeg">
+</div></div>
+
+<!-- Slide 8 -->
+<div class="seccion"><div class="slider">
+<img src="Imagen 22.jpeg">
+<img src="Imagen 23.jpeg">
+<img src="Imagen 24.jpeg">
+</div></div>
 
 </body>
 </html>
